@@ -14,8 +14,8 @@ namespace WebApplication6.Controllers
         Scrapper[] products = new Scrapper[]
 {
             new Scrapper { Id = 1, Name = "Tomato Soup", Category = "Groceries", Price = 1 },
-            new Scrapper { Id = 2, Name = "Yo-yo", Category = "Toys", Price = 3.75M },
-            new Scrapper { Id = 3, Name = "Hammer", Category = "Hardware", Price = 16.99M }
+            new Scrapper { Id = 2, Name = "Apple ", Category = "Fruits", Price = 3.75M },
+            new Scrapper { Id = 3, Name = "Orange", Category = "Fruits", Price = 16.99M }
 };
 
         public IEnumerable<Scrapper> GetAllProducts()

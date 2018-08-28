@@ -15,8 +15,8 @@ namespace WebApplication6.Controllers
     {
         Content webcontent = new Content();
 
-
-        public IHttpActionResult GetParseURL(int id)
+        [HttpGet]
+        public IHttpActionResult LoadURL(int id)
         {
             string url = "https://github.com";
             int imagecount=0;

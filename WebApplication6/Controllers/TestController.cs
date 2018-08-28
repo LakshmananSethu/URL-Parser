@@ -8,6 +8,7 @@ using WebApplication6.Models;
 using HtmlAgilityPack;
 
 
+
 namespace WebApplication6.Controllers
 {
     public class TestController : ApiController
@@ -15,7 +16,7 @@ namespace WebApplication6.Controllers
         Content webcontent = new Content();
 
 
-        public IHttpActionResult LoadURL(int id)
+        public IHttpActionResult GetParseURL(int id)
         {
             string url = "https://github.com";
             int imagecount=0;
